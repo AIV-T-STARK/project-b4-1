@@ -1,0 +1,49 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #949191;
+  color: #fff; }
+
+#my-navbar {
+  border-bottom: 5px solid #008ed6;
+  opacity: 0.8; }
+  #my-navbar .navbar-brand {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    font-weight: 600; }
+    #my-navbar .navbar-brand span {
+      color: red; }
+
+#home {
+  position: relative; }
+  #home .header-bg {
+    background: url(../img/pexels-photo-698327.jpeg) no-repeat fixed;
+    background-size: cover;
+    background-position: center;
+    min-height: 700px; }
+  #home .header-inner {
+    padding-top: 150px; }
+
+.icon-check i {
+  font-size: 28px;
+  background: transparent;
+  color: #000;
+  border-radius: 6px;
+  padding: 6px; }
+
+.icon-check .icon-even {
+  background: #fff;
+  color: #008ed6; }
+
+.icon-check .icon-odd {
+  background: #1b1b1b;
+  color: #fff; }
+
+.footer-inner h3 {
+  font-weight: 400;
+  margin: 0; }
+
+.footer-inner .breadcrumb {
+  padding: 0;
+  margin: 0; }
+  .footer-inner .breadcrumb .breadcrumb-item {
+    color: #d6d5d5; }
